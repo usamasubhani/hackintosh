@@ -31,7 +31,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v dart=0 kext-dev-mode=1 rootless=0</string>
+		<string>dart=0 kext-dev-mode=1 rootless=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -87,6 +87,8 @@
 			<key>Tool</key>
 			<true/>
 		</dict>
+		<key>Theme</key>
+		<string>embedded</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -217,8 +219,6 @@
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NoCaches</key>
 		<true/>
 	</dict>
 </dict>
